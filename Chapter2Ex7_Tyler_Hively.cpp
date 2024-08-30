@@ -27,15 +27,18 @@ int main()
 	double YearLevel5;
 	double YearLevel7;
 	double YearLevel10;
+	double YearLevel15;	
 	cout << "Please enter the millimeter rise you expect each year: ";
 	cin >> levelRise;
 	
 	YearLevel5 = levelRise * 5;
 	YearLevel7 = levelRise * 7;
 	YearLevel10 = levelRise * 10;
+	YearLevel15 = levelRise * 15;
 	cout << "After 5 years, the ocean will have risen " << YearLevel5 << " millimeters" << endl;
 	cout << "After 7 years, the ocean will have risen " << YearLevel7 << " millimeters" << endl;
 	cout << "After 10 years, the ocean will have risen " << YearLevel10 << " millimeters" << endl;
+	cout << "After 15 years, the ocean will have risen " << YearLevel15 << " millimeters" << endl;
 	return 0;
 }
 
